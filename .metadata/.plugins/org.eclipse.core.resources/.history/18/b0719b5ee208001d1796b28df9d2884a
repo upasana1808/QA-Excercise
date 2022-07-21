@@ -1,0 +1,11 @@
+package org;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Employee e1=new Employee();
+		Employee e2=new Employee("Upasana","Dew","32","India","9620093666","u@gamil.com",100000);
+
+	}
+
+}

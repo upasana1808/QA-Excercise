@@ -1,0 +1,7 @@
+package org;
+
+import java.io.FileWriter;
+
+public class FileWriteTest {
+	FileWriter fw=new FileWriter("x.txt");
+}

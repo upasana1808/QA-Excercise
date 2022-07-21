@@ -1,0 +1,17 @@
+package org;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileWriteTest {
+	public static void main(String[] args) {
+		try {
+			FileWriter fw=new FileWriter("x.txt");
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+	}
+}
+
+

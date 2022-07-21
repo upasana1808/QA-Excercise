@@ -1,0 +1,8 @@
+package org;
+
+public class Circle extends Shape{
+	public abstract void draw() {
+		System.out.println("draw cicle");
+	}
+
+}

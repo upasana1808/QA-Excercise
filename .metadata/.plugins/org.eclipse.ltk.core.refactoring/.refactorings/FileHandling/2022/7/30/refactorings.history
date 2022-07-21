@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;FileHandling/src/main/java/com&apos;&#x0D;&#x0A;- Original project: &apos;FileHandling&apos;&#x0D;&#x0A;- Destination element: &apos;FileHandling/src/main/java/com&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     org.FileWriteTest.java&#x0D;&#x0A;     org.FileReadTest.java" description="Copy compilation units" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org{FileWriteTest.java" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org{FileReadTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1658325175039" units="2" version="1.0"/>
+</session>

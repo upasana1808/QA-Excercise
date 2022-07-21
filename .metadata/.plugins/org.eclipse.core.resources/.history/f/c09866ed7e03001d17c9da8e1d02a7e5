@@ -1,0 +1,13 @@
+package org;
+
+public class BearCarer implements BearKeeper {
+	public void washTheBear() {
+	}
+
+	public void feedTheBear() {
+	}
+
+	public void petTheBear() {
+	}
+
+}

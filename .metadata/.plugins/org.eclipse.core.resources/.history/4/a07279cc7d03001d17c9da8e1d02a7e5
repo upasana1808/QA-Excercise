@@ -1,0 +1,8 @@
+package org;
+
+public class BearCarer implements BearKeeper{
+	 void washTheBear() {}
+	    void feedTheBear() {}
+	    void petTheBear() {}
+
+}

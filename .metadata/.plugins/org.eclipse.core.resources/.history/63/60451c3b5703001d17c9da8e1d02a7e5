@@ -1,0 +1,51 @@
+package org;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class PreparedStmtExample {
+
+	public static void main(String[] args) {
+		// PreparedStatement statement = conn.prepareStatement("INSERT INTO customer
+		// VALUES(?,?)")) {
+		String url = "jdbc:mysql://localhost:3306/qa-sample";
+		String userName = "root";
+		String password = "1234";
+		Connection con = null;
+		try {
+			con = DriverManager.getConnection(url, userName, password);
+			System.out.println("Connection successful");
+			String query = "select * from student where id=?";// java statement
+			PreparedStatement stmt = con.prepareStatement(query);
+			stmt.setInt(1, 107);
+			stmt.setString(2, "Upasana");
+			ResultSet rs = stmt.executeQuery(query);// execute the statement and store the result
+			while (rs.next()) // iterate through the result
+			{
+				int id = rs.getInt(1);
+				String name = rs.getString(2);
+				String address = rs.getString(3);
+				long phone = rs.getLong(4);
+				System.out.println(id + "--" + name + "--" + address + "--" + phone);
+			}
+
+		} catch (SQLException e) {
+			System.out.println("something went wrong");
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		} finally {
+			try {
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+}

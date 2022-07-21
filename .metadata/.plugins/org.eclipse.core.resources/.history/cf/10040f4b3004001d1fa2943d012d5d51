@@ -1,0 +1,12 @@
+package org;
+
+public class Employee {
+	private static int id;
+	public String name;
+	//public Employee(){}
+	//static Employee emp=new Employee();
+	
+	public Employee() {}
+	
+	
+}

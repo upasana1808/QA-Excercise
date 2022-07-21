@@ -1,0 +1,12 @@
+package domain;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Journalism j=new Journalism();
+		Cooking c=new Cooking();
+		Photography p= new Photography();
+
+	}
+
+}

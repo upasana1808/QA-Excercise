@@ -1,0 +1,11 @@
+package org;
+
+public class Employee {
+	private int id;
+	private String name;
+	//public Employee(){}
+	
+	private Employee() {
+		System.out.println("Employee constructor");
+	}
+}

@@ -1,0 +1,9 @@
+package org;
+
+public class Test {
+	public static void main(String[] args) {
+		Employee.getEmployee();
+		//Employee emp1=new Employee();
+		
+	}
+}

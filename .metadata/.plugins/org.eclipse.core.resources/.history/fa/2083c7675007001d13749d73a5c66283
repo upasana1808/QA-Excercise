@@ -1,0 +1,6 @@
+package org;
+
+public class ShapeTest {
+	public void drawShapes(List<? extends Shape>)
+
+}
