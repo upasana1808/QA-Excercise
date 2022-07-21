@@ -10,22 +10,6 @@ public class Employee {
 	String Email;
 	int basicSalary;
 	
-	public Employee() {
-		super();
-	}
-
-	public Employee(String firstName, String lastName, int age, String address, String phoneNo, String email,
-			int basicSalary) {
-		super();
-		this.firstName = firstName;
-		LastName = lastName;
-		this.age = age;
-		this.address = address;
-		this.phoneNo = phoneNo;
-		Email = email;
-		this.basicSalary = basicSalary;
-	}
-	
 	public int calculateSalary(int salary)
 	{
 		this.basicSalary=salary;
@@ -63,7 +47,21 @@ public class Employee {
 			return false;
 	}
 	
-	
+	public Employee() {
+		super();
+	}
+
+	public Employee(String firstName, String lastName, int age, String address, String phoneNo, String email,
+			int basicSalary) {
+		super();
+		this.firstName = firstName;
+		LastName = lastName;
+		this.age = age;
+		this.address = address;
+		this.phoneNo = phoneNo;
+		Email = email;
+		this.basicSalary = basicSalary;
+	}
 	
 	
 	
